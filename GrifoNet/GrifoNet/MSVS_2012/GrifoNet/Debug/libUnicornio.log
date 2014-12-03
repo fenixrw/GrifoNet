@@ -1,0 +1,56 @@
+﻿Build started 26/11/2014 18:51:01.
+     1>Project "G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\libUnicornio\MSVS_2012\libUnicornio\libUnicornio.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\SDL2_Net\include /I..\..\SDL2_Net\include /I..\..\..\SDL2_Net\include /I..\SDL2\include /I..\..\SDL2\include /I..\..\..\SDL2\include /I..\..\..\include\Eventos /I..\..\..\include\Interface /I..\..\..\include\TileMap /I..\..\..\include\Midia /I..\..\..\include\Rede /I..\..\..\include\Utils /I..\..\..\include\tclap /I..\..\include /I..\..\..\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\Rede\ControleDeRede.cpp
+         ControleDeRede.cpp
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\controlederede.h(46): warning C4138: '*/' found outside of comment
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\src\rede\controlederede.cpp(2005): warning C4129: 'p' : unrecognized character escape sequence
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\src\rede\controlederede.cpp(2127): warning C4129: 'p' : unrecognized character escape sequence
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\libUnicornio\MSVS_2012\Debug\libUnicornio.lib) does not match the Library's OutputFile property value (G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\lib\MSVS_2012\libUnicornio_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1301,5): warning MSB8012: TargetName(libUnicornio) does not match the Library's OutputFile property value (libUnicornio_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"..\..\..\lib\MSVS_2012\libUnicornio_d.lib" SDL2_net.lib SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib SDL2_mixer.lib /LIBPATH:..\..\..\SDL2\lib\x86 /LIBPATH:..\..\..\SDL2_Net\lib\x86 /NOLOGO Debug\Eventos.obj
+         Debug\EventosAplicacao.obj
+         Debug\EventosiOS.obj
+         Debug\EventosJoysticks.obj
+         Debug\EventosMouse.obj
+         Debug\EventosTeclado.obj
+         Debug\EventosToque.obj
+         Debug\GerenciadorDeRecursos.obj
+         Debug\BotaoSprite.obj
+         Debug\jsoncpp.obj
+         Debug\libUnicornio.obj
+         Debug\Fonte.obj
+         Debug\Musica.obj
+         Debug\Som.obj
+         Debug\Sprite.obj
+         Debug\SpriteSheet.obj
+         Debug\Texto.obj
+         Debug\Buffer.obj
+         Debug\ControleDeRede.obj
+         Debug\ObjetoDeRede.obj
+         Debug\Peer.obj
+         Debug\RedeBase.obj
+         Debug\AStar.obj
+         Debug\NodoAStar.obj
+         Debug\ObjetoTile.obj
+         Debug\Tile.obj
+         Debug\TileLayer.obj
+         Debug\TileMap.obj
+         Debug\TileSet.obj
+         Debug\Vetor2D.obj
+         Debug\keyutil.obj
+     1>SDL2.lib(SDL2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2_net.lib(SDL2_net.dll); second definition ignored
+     1>SDL2.lib(SDL2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL2_image.lib(SDL2_image.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2_net.lib(SDL2_net.dll); second definition ignored
+     1>SDL2_image.lib(SDL2_image.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2_net.lib(SDL2_net.dll); second definition ignored
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2_net.lib(SDL2_net.dll); second definition ignored
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libUnicornio.vcxproj -> G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\libUnicornio\MSVS_2012\Debug\libUnicornio.lib
+     1>Done Building Project "G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\libUnicornio\MSVS_2012\libUnicornio\libUnicornio.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.99

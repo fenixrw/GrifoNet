@@ -1,0 +1,327 @@
+﻿Build started 28/11/2014 15:11:26.
+     1>Project "G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\libUnicornio\MSVS_2012\libUnicornio\libUnicornio.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\SDL2_Net\include /I..\..\SDL2_Net\include /I..\..\..\SDL2_Net\include /I..\SDL2\include /I..\..\SDL2\include /I..\..\..\SDL2\include /I..\..\..\include\Eventos /I..\..\..\include\Interface /I..\..\..\include\TileMap /I..\..\..\include\Midia /I..\..\..\include\Rede /I..\..\..\include\Utils /I..\..\..\include\tclap /I..\..\include /I..\..\..\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\Eventos\Eventos.cpp ..\..\..\src\Eventos\EventosAplicacao.cpp ..\..\..\src\Eventos\EventosiOS.cpp ..\..\..\src\Eventos\EventosJoysticks.cpp ..\..\..\src\Eventos\EventosMouse.cpp ..\..\..\src\Eventos\EventosTeclado.cpp ..\..\..\src\Eventos\EventosToque.cpp ..\..\..\src\GerenciadorDeRecursos.cpp ..\..\..\src\Interface\BotaoSprite.cpp ..\..\..\src\json\jsoncpp.cpp ..\..\..\src\libUnicornio.cpp ..\..\..\src\Midia\Fonte.cpp ..\..\..\src\Midia\Musica.cpp ..\..\..\src\Midia\Som.cpp ..\..\..\src\Midia\Sprite.cpp ..\..\..\src\Midia\SpriteSheet.cpp ..\..\..\src\Midia\Texto.cpp ..\..\..\src\Rede\Buffer.cpp ..\..\..\src\Rede\ControleDeRede.cpp ..\..\..\src\Rede\ObjetoDeRede.cpp ..\..\..\src\Rede\Peer.cpp ..\..\..\src\Rede\RedeBase.cpp ..\..\..\src\TileMap\AStar.cpp ..\..\..\src\TileMap\NodoAStar.cpp ..\..\..\src\TileMap\ObjetoTile.cpp ..\..\..\src\TileMap\Tile.cpp ..\..\..\src\TileMap\TileLayer.cpp ..\..\..\src\TileMap\TileMap.cpp ..\..\..\src\TileMap\TileSet.cpp ..\..\..\src\TileMap\Vetor2D.cpp ..\..\..\src\Utils\keyutil.cpp
+         Eventos.cpp
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+         EventosAplicacao.cpp
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         EventosiOS.cpp
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         EventosJoysticks.cpp
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\src\Eventos\EventosJoysticks.cpp(42): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\Eventos\EventosJoysticks.cpp(47): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\Eventos\EventosJoysticks.cpp(52): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\Eventos\EventosJoysticks.cpp(57): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         EventosMouse.cpp
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\Eventos\EventosMouse.cpp(130): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosMouse.cpp(131): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosMouse.cpp(133): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosMouse.cpp(134): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         EventosTeclado.cpp
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         EventosToque.cpp
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\Eventos\EventosToque.cpp(82): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosToque.cpp(83): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosToque.cpp(84): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosToque.cpp(85): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosToque.cpp(95): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosToque.cpp(96): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosToque.cpp(97): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosToque.cpp(99): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosToque.cpp(100): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Eventos\EventosToque.cpp(101): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         GerenciadorDeRecursos.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+         BotaoSprite.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\Interface\BotaoSprite.cpp(48): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         jsoncpp.cpp
+         libUnicornio.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\libUnicornio.cpp(126): warning C4244: '=' : conversion from 'double' to 'Uint32', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(146): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\libUnicornio.cpp(174): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(206): warning C4244: '=' : conversion from 'double' to 'Uint32', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(228): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\libUnicornio.cpp(232): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\libUnicornio.cpp(235): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\libUnicornio.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\libUnicornio.cpp(301): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\libUnicornio.cpp(364): warning C4101: 'ob' : unreferenced local variable
+     1>..\..\..\src\libUnicornio.cpp(364): warning C4101: 'or' : unreferenced local variable
+     1>..\..\..\src\libUnicornio.cpp(364): warning C4101: 'oa' : unreferenced local variable
+     1>..\..\..\src\libUnicornio.cpp(364): warning C4101: 'og' : unreferenced local variable
+     1>..\..\..\src\libUnicornio.cpp(374): warning C4101: 'ob' : unreferenced local variable
+     1>..\..\..\src\libUnicornio.cpp(374): warning C4101: 'or' : unreferenced local variable
+     1>..\..\..\src\libUnicornio.cpp(374): warning C4101: 'oa' : unreferenced local variable
+     1>..\..\..\src\libUnicornio.cpp(374): warning C4101: 'og' : unreferenced local variable
+     1>..\..\..\src\libUnicornio.cpp(384): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(391): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(392): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(394): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(395): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(406): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(407): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(414): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(426): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(427): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(441): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(442): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(447): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(448): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(460): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(461): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(511): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(517): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(539): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(540): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(545): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(549): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(550): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(566): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(626): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(691): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(692): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(702): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(713): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(714): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(721): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(738): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(779): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(795): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(796): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(806): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(817): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(818): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(825): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(830): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(831): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(847): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(889): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(899): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(900): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(910): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(921): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(922): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(938): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(939): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(948): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(959): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(960): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(981): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(1011): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(1023): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(1037): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(1054): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libUnicornio.cpp(1139): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Fonte.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\Midia\Fonte.cpp(85): warning C4800: 'TTF_Font *' : forcing value to bool 'true' or 'false' (performance warning)
+         Musica.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\Midia\Musica.cpp(94): warning C4800: '_Mix_Music *' : forcing value to bool 'true' or 'false' (performance warning)
+         Som.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\Midia\Som.cpp(96): warning C4800: 'Mix_Chunk *' : forcing value to bool 'true' or 'false' (performance warning)
+         Sprite.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\Midia\Sprite.cpp(119): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Sprite.cpp(124): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Sprite.cpp(159): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Midia\Sprite.cpp(201): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Sprite.cpp(202): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Sprite.cpp(394): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\Midia\Sprite.cpp(409): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\Midia\Sprite.cpp(438): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Sprite.cpp(455): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Sprite.cpp(456): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Sprite.cpp(458): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         SpriteSheet.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\Midia\SpriteSheet.cpp(72): warning C4018: '>' : signed/unsigned mismatch
+     1>..\..\..\src\Midia\SpriteSheet.cpp(94): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\..\..\src\Midia\SpriteSheet.cpp(131): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\Midia\SpriteSheet.cpp(155): warning C4800: 'SDL_Texture *' : forcing value to bool 'true' or 'false' (performance warning)
+         Texto.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\Midia\Texto.cpp(51): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Texto.cpp(56): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Texto.cpp(310): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Texto.cpp(311): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Texto.cpp(313): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Texto.cpp(327): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Texto.cpp(328): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Texto.cpp(330): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Texto.cpp(331): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Texto.cpp(333): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\Midia\Texto.cpp(334): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Buffer.cpp
+     1>..\..\..\src\Rede\Buffer.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\Rede\Buffer.cpp(106): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\src\Rede\Buffer.cpp(116) : see reference to function template instantiation 'bool Buffer::ler<bool>(bool &)' being compiled
+         ControleDeRede.cpp
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\Rede\ControleDeRede.cpp(2131): warning C4129: 'p' : unrecognized character escape sequence
+     1>..\..\..\src\Rede\ControleDeRede.cpp(2253): warning C4129: 'p' : unrecognized character escape sequence
+         ObjetoDeRede.cpp
+         Compiling...
+         Peer.cpp
+         RedeBase.cpp
+         AStar.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\TileMap\AStar.cpp(54): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(59): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(91): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(95): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(111): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(142): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(145): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(149): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(150): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(156): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(157): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(158): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(170): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\AStar.cpp(176): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\AStar.cpp(182): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\AStar.cpp(189): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(199): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(243): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\AStar.cpp(247): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\AStar.cpp(352): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>..\..\..\src\TileMap\AStar.cpp(353): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+         NodoAStar.cpp
+         ObjetoTile.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+         Tile.cpp
+         TileLayer.cpp
+         TileMap.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\TileMap\TileMap.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(188): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(277): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(286): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(289): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(311): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(314): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(352): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(362): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(373): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(384): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(395): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(415): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(421): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(430): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(448): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(463): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(476): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(490): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(507): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(543): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(545): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(561): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(571): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(593): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(595): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(610): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(620): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(677): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(679): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(687): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(689): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(764): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(774): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(791): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(812): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(823): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(841): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(999): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(1000): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\TileMap\TileMap.cpp(1011): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(1023): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\TileMap\TileMap.cpp(1025): warning C4018: '<' : signed/unsigned mismatch
+         TileSet.cpp
+         RELEASE UNICORNIO: added libs: sdl2_net.lib sdl2.lib sdl2main.lib sdl2_image.lib sdl2_ttf.lib sdl2_mixer.lib
+     1>G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\include\Eventos\Eventos.h(58): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>g:\projeto final 2\libunicorn\github\libunicornio-refactor\libunicornio\include\rede\ControleDeRede.h(46): warning C4138: '*/' found outside of comment
+     1>..\..\..\src\TileMap\TileSet.cpp(75): warning C4800: 'SDL_Texture *' : forcing value to bool 'true' or 'false' (performance warning)
+         Vetor2D.cpp
+         keyutil.cpp
+     1>..\..\..\src\Utils\keyutil.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\libUnicornio\MSVS_2012\Release\libUnicornio.lib) does not match the Library's OutputFile property value (G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\lib\MSVS_2012\libUnicornio.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"..\..\..\lib\MSVS_2012\libUnicornio.lib" SDL2_net.lib SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib SDL2_mixer.lib /LIBPATH:..\..\..\SDL2\lib\x86 /LIBPATH:..\..\..\SDL2_Net\lib\x86 /NOLOGO /LTCG Release\Eventos.obj
+         Release\EventosAplicacao.obj
+         Release\EventosiOS.obj
+         Release\EventosJoysticks.obj
+         Release\EventosMouse.obj
+         Release\EventosTeclado.obj
+         Release\EventosToque.obj
+         Release\GerenciadorDeRecursos.obj
+         Release\BotaoSprite.obj
+         Release\jsoncpp.obj
+         Release\libUnicornio.obj
+         Release\Fonte.obj
+         Release\Musica.obj
+         Release\Som.obj
+         Release\Sprite.obj
+         Release\SpriteSheet.obj
+         Release\Texto.obj
+         Release\Buffer.obj
+         Release\ControleDeRede.obj
+         Release\ObjetoDeRede.obj
+         Release\Peer.obj
+         Release\RedeBase.obj
+         Release\AStar.obj
+         Release\NodoAStar.obj
+         Release\ObjetoTile.obj
+         Release\Tile.obj
+         Release\TileLayer.obj
+         Release\TileMap.obj
+         Release\TileSet.obj
+         Release\Vetor2D.obj
+         Release\keyutil.obj
+     1>SDL2.lib(SDL2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2_net.lib(SDL2_net.dll); second definition ignored
+     1>SDL2_image.lib(SDL2_image.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2_net.lib(SDL2_net.dll); second definition ignored
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2_net.lib(SDL2_net.dll); second definition ignored
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2_net.lib(SDL2_net.dll); second definition ignored
+         libUnicornio.vcxproj -> G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\libUnicornio\MSVS_2012\Release\libUnicornio.lib
+     1>Done Building Project "G:\Projeto Final 2\LibUnicorn\GitHub\libUnicornio-Refactor\libUnicornio\libUnicornio\MSVS_2012\libUnicornio\libUnicornio.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:56.08

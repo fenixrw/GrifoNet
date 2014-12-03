@@ -1,0 +1,30 @@
+﻿Build started 02/12/2014 21:23:47.
+     1>Project "E:\Projetos\GrifoNet\GitHub\GrifoNet\GrifoNet\MSVS_2012\GrifoNet\GrifoNet.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\..\External\SDL2_Net\include /I..\..\..\..\External\SDL2\include /I..\..\..\include\tclap /I..\..\..\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\Buffer.cpp ..\..\..\src\ControleDeRede.cpp ..\..\..\src\ObjetoDeRede.cpp ..\..\..\src\Peer.cpp
+         Peer.cpp
+         ObjetoDeRede.cpp
+         ControleDeRede.cpp
+     1>e:\projetos\grifonet\github\grifonet\include\controlederede.h(47): warning C4138: '*/' found outside of comment
+     1>e:\projetos\grifonet\github\grifonet\src\controlederede.cpp(2133): warning C4129: 'p' : unrecognized character escape sequence
+     1>e:\projetos\grifonet\github\grifonet\src\controlederede.cpp(2255): warning C4129: 'p' : unrecognized character escape sequence
+         Buffer.cpp
+     1>e:\projetos\grifonet\github\grifonet\src\buffer.cpp(134): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projetos\grifonet\github\grifonet\src\buffer.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+                 e:\projetos\grifonet\github\grifonet\src\buffer.cpp(117) : see reference to function template instantiation 'bool grifo::Buffer::ler<bool>(bool &)' being compiled
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1299,5): warning MSB8012: TargetPath(E:\Projetos\GrifoNet\GitHub\GrifoNet\GrifoNet\MSVS_2012\Debug\GrifoNet.lib) does not match the Library's OutputFile property value (E:\Projetos\GrifoNet\GitHub\GrifoNet\lib\MSVS_2012\GrifoNet_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1301,5): warning MSB8012: TargetName(GrifoNet) does not match the Library's OutputFile property value (GrifoNet_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"..\..\..\lib\MSVS_2012\GrifoNet_d.lib" SDL2_net.lib SDL2.lib /LIBPATH:..\..\..\..\External\SDL2\lib\x86 /LIBPATH:..\..\..\..\External\SDL2_Net\lib\x86 /NOLOGO Debug\Buffer.obj
+         Debug\ControleDeRede.obj
+         Debug\ObjetoDeRede.obj
+         Debug\Peer.obj
+     1>SDL2.lib(SDL2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2_net.lib(SDL2_net.dll); second definition ignored
+     1>SDL2.lib(SDL2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         GrifoNet.vcxproj -> E:\Projetos\GrifoNet\GitHub\GrifoNet\GrifoNet\MSVS_2012\Debug\GrifoNet.lib
+     1>Done Building Project "E:\Projetos\GrifoNet\GitHub\GrifoNet\GrifoNet\MSVS_2012\GrifoNet\GrifoNet.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.79
