@@ -1,0 +1,1 @@
+START base.exe -l 2323 -r -d root.log

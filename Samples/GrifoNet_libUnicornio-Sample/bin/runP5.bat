@@ -1,0 +1,1 @@
+START base.exe -l 2828 -d player5.log

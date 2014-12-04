@@ -1,0 +1,1 @@
+START base.exe -l 2929 -d player6.log

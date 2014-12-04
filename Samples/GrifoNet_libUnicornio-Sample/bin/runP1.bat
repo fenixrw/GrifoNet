@@ -1,0 +1,1 @@
+START base.exe -l 2424 -d player1.log
