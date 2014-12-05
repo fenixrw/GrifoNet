@@ -1,9 +1,6 @@
 GrifoNet
 ========
 
-P2P Networking library based on SDL_Net2
-# Unicórnio (versão BETA)
-
 **GrifoNet**, ou **lib GrifoNet**, é uma biblioteca de redes P2P voltada para o desenvolvimento de jogos.
 
 Ela dá suporte as principais funcionalidades necessárias para o desenvolvimento da rede de um jogo.
