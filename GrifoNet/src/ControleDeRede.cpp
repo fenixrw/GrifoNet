@@ -53,6 +53,17 @@ string printIp(IPaddress ip)
 	return sIp.str();
 }
 
+PortInfo ControleDeRede::getPortInfo(){
+
+	PortInfo out;
+
+	out.udpIn = _udpInPorta;
+	out.udpOut = _udpOutPorta;
+	out.tcp = _tcpPorta;
+
+	return out;
+}
+
 ControleDeRede::ControleDeRede(void)
 {
 	_updateSuperPeerInfo = false;

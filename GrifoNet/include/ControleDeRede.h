@@ -43,6 +43,8 @@ SOFTWARE.
 using namespace std;
 namespace grifo
 {
+	typedef struct _portInfo {unsigned short udpIn, udpOut, tcp;} PortInfo;
+
 	class ControleDeRede
 	{
 	public:
@@ -75,6 +77,8 @@ namespace grifo
 
 		ObjetoDeRede* (*_fCriarObjeto)(unsigned int /*Object Type*/, void*/*Game Data - For use on the Instantiate method (Suggestion: struct with pointers to World, Tilemap, SpriteSet, ...)*/);
 		void* _dadosCriarObjeto;
+
+		PortInfo getPortInfo();
 
 	private:
 

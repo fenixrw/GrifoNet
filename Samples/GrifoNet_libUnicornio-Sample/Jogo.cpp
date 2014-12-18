@@ -3,6 +3,7 @@
 
 string textoInput="";
 string textoInputServer="";
+
 ControleDeRede *pRede=NULL;
 
 Buffer mBuffer(512);
@@ -205,6 +206,8 @@ void Jogo::inicializar(int argc, char** argv)
 	texto.setFonte("fonte colisao");
 	textoServer.setFonte("fonte colisao");
 	textoMe.setFonte("fonte colisao");
+	textoPortas.setFonte("fonte colisao");
+	textoPortas.setAncora (0,1);
 
 	rede.inicializar(argc,argv);
 
@@ -213,6 +216,11 @@ void Jogo::inicializar(int argc, char** argv)
 		rede.adicionarObjeto(intanciarObjetoDeRede(Object_PLAYER,&iData));
 		rede.conectar("localhost",2323);
 	}
+
+	PortInfo ports = rede.getPortInfo();
+	stringstream ss;
+	ss << "TCP: " << ports.tcp << " | UDPin: " << ports.udpIn << " | UDPout: " << ports.udpOut;
+	textoPortas.setTexto(ss.str());
 
 }
 
@@ -252,6 +260,7 @@ void Jogo::executar()
 
 		//desenhar texto da colisao
 		texto.desenhar(res_x/2, res_y/5);
+		textoPortas.desenhar(res_x*0.05, res_y);
 
 		if(!rede.souRoot())
 		{

@@ -33,6 +33,7 @@ private:
 	Texto texto;
 	Texto textoServer;
 	Texto textoMe;
+	Texto textoPortas;
 
 	INSTANTIATE_DATA iData;
 };
